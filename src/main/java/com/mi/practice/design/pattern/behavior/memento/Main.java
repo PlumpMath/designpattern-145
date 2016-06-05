@@ -1,4 +1,4 @@
-package com.mi.practice.design.pattern.behavior;
+package com.mi.practice.design.pattern.behavior.memento;
 
 import com.mi.practice.design.pattern.behavior.memento.Caretaker;
 import com.mi.practice.design.pattern.behavior.memento.Originator;
@@ -10,7 +10,7 @@ import com.mi.practice.design.pattern.behavior.memento.Originator;
  A magic cookie that encapsulates a "check point" capability.
  Promote undo or rollback to full object status.
  */
-public class MementoExample {
+public class Main {
 
     public static void main(String []args) {
         Caretaker caretaker = new Caretaker();
